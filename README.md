@@ -52,5 +52,5 @@ If successful, you can also compile the file:
 
 Once compiled to execute the code by simple typing:
 
-```./main.go```
+```./main```
 
