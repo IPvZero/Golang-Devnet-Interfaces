@@ -50,7 +50,7 @@ If successful, you can also compile the file:
 
 ```go build main.go```
 
-Once compiled to execute the code by simple typing:
+Once compiled, you can execute the code by simple typing:
 
 ```./main```
 
