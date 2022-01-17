@@ -50,10 +50,11 @@ func main() {
                 fmt.Printf("failed to parse command; error: %+v\n", err)
                 return
         }
-        //fmt.Println(parsedOut)
+        // Pretty prints all the interface stats
         s, _ := json.MarshalIndent(parsedOut, "", "\t")
         fmt.Print(string(s))
-
+        
+        // Prints the parsed output
         fmt.Println("\n****\n")
         for i := 0; i < len(parsedOut); i++ {
                 fmt.Println("INTERFACE:", parsedOut[i]["INTERFACE"], "IP:", parsedOut[i]["IP_ADDRESS"])
